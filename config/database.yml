@@ -52,4 +52,4 @@ production:
   <<: *default
   database: protospace_user_id_production
   username: protospace_user_id
-  password: <%= ENV["PROTOSPACE_USER_ID_DATABASE_PASSWORD"] %>
+  password: <%= ENV["PLOTOSPACE_USER_ID_DATABASE_PASSWORD"] %>
