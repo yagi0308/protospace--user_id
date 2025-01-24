@@ -21,6 +21,7 @@ class CommentsController < ApplicationController
   end
 
   def destroy
+    @prototype = Prototype.find(params[:prototype_id])
     @prototype = Prototype.find(params[:id])
     @comment.destroy
     redirect_to root_path
